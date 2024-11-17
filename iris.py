@@ -93,7 +93,7 @@ joblib.__version__
 import pandas
 pandas.__version__
 
-!pip install streamlit
+#!pip install streamlit
 import streamlit
 streamlit.__version__
 
