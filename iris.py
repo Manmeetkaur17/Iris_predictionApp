@@ -53,7 +53,7 @@ print(acc_score)
 
 joblib.dump(rfc,"MY_Iris_Model.sav")            #save model on disk
 
-!pip install predictions
+!pip install prediction
 
 !pip install streamlit
 
@@ -80,9 +80,9 @@ with col2:
 
 st.button('Predict Flower Type')
 
-# !streamlit run iris.py &>/content/logs.txt &
+!streamlit run iris.py &>/content/logs.txt &
 
-# !npx localtunnel --port 8501
+!npx localtunnel --port 8501
 
 import sklearn
 sklearn.__version__
