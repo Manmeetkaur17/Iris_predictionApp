@@ -53,9 +53,9 @@ print(acc_score)
 
 joblib.dump(rfc,"MY_Iris_Model.sav")            #save model on disk
 
-pip install predictions
+# pip install predictions
 
-pip install streamlit
+# pip install streamlit
 
 
 
